@@ -1,0 +1,1155 @@
+@media (min-width: 320px) and (max-width: 575px){
+    .taitle p{
+        width: auto;
+        font-size: 14px;
+    }
+    /* ================================
+                nav part
+    ===================================== */
+    nav{
+        background: #000;
+    }
+    nav button i{
+        color: #fec600;
+        font-size: 25px;
+    }
+    nav .navbar-toggler{
+        color: #fec600;
+    }
+    nav ul{
+        padding: 10px 0;
+    }
+    nav ul li {
+        margin-right: 0;
+        text-align: center;
+        /* background: #2a5f6e; */
+    }
+    nav ul li a::after {
+        display: none;
+    }
+    /* ================================
+                bannre part
+    =================================== */
+    #banner-part{
+        position: relative;
+    }
+    #banner-part .banner-slider .banner .overlay{
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+    #banner-part .banner-slider .banner .overlay .container h2 {
+        font-size: 32px;
+    }
+    #banner-part .banner-slider .banner .overlay .container h1 {
+        font-size: 50px;
+    }
+    #banner-part .banner-slider .banner .overlay .container p {
+        width: auto;
+        padding: 20px 0;
+    }
+    #banner-part .banner-slider .banner .overlay .container a {
+        padding: 12px;
+    }
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20px;
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+    }
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 0 10px;
+        background: transparent;
+        border: 1px solid #fbaa33;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    #banner-bottom{
+        display: none;
+    }
+    /*============================
+             about part 
+    ================================*/
+    #about-part{
+        margin-top: 190px;
+    }
+    #about-part .item-round{
+        display: none;
+    }
+    #about-part .sheep-top{
+        display: none;
+    }
+    #about-part .sheep-bottom{
+        display: none;
+    }
+    #about-part .sheep-left{
+        display: none;
+    }
+    #about-part .sheep-right{
+        display: none;
+    }
+    #about-part i{
+        display: none;
+    }
+    #about-part .item-left{
+        text-align: center;
+        margin: 20px 0;
+    }
+    #about-part .item-right{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #about-part .item-top{
+        padding: 0 0;
+    }
+    #about-part .item-top h3{
+        padding-bottom: 0;
+    }
+    #about-part .item-top p {
+        padding: 15px 17px;
+    }
+    #about-part .item-bottom{
+        padding: 0 0;
+    }
+    #about-part .item-bottom h3{
+        padding-bottom: 0;
+    }
+    #about-part .item-bottom p {
+        padding: 15px 17px;
+    }
+    #about-part .item-left{
+        padding: 0 0;
+    }
+    #about-part .item-left h3{
+        padding-bottom: 0;
+    }
+    #about-part .item-left p {
+        padding: 15px 17px;
+    }
+    #about-part .item-right{
+        padding: 0 0;
+    }
+    #about-part .item-right h3{
+        padding-bottom: 0;
+    }
+    #about-part .item-right p {
+        padding: 15px 17px;
+    }
+/* ===================================
+        Portfolio part
+====================================== */
+
+    #Portfolio-top{
+        display: none;
+    }
+    #Portfolio-bottom{
+        display: none;
+    }
+    #portfolio-part {
+        margin-top: 50px;
+    }
+    #portfolio-part .overlay {
+        padding: 50px 0;
+    }
+/* ==============================
+        service part
+=========================== */
+    #service-part {
+	    margin-top: 50px;
+    } 
+    #service-part .line {
+        display: none;
+    }
+    #service-part .service{
+        flex-direction: column;
+    } 
+    #service-part .service:nth-child(2n+1) {
+        flex-direction: column;
+    }
+    #service-part .service .title {
+        width: 100%;
+        margin-top: 0;
+        justify-content: center;
+    }
+    #service-part .service:nth-child(2n+1) .title {
+        justify-content: center;
+    }
+    #service-part .service .image {
+        width: 100%;
+        margin: 36px 0;
+    }
+    #service-part .service .ditels {
+        width: 100%;
+    }
+    #service-part .service .ditels p {
+        padding: 20px;
+        text-align: center;
+    }
+    #service-part .prev {
+        top: 105%;
+        left: 35%;
+        transform: translateX(0);
+    }
+    #service-part .next {
+        top: 105%;
+        left: 55%;
+        transform: translateX(0);
+    }
+    #service-part .service .ditels .shep {
+        top: 0%;
+        left: 50% !important;
+    }
+ /* ==============================
+        testimonial part
+=========================== */
+    #testimonial-top{
+        display: none;
+    }
+    #testimonial-bottom{
+        display: none;
+    }
+    #testimonial-part{
+        margin-top: 100px;
+    }
+    #testimonial-part .testi-overlay {
+        padding-top: 60px;
+        padding-bottom: 90px;
+    }
+    #testimonial-part .testi-overlay .line{
+        display: none;
+    }
+    #testimonial-part .testi-overlay .box-center {
+        margin-top: 40px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    #testimonial-part .testi-overlay .round {
+        width: 80px;
+        height: 80px;
+    }
+    #testimonial-part .testi-overlay .round img {
+        top: 8px;
+        left: -5px;
+    }
+    #testimonial-part .testi-overlay .text-box {
+        width: 320px;
+        padding: 10px;
+        text-align: center;
+    }
+    #testimonial-part .testi-overlay .text-box .sheap {
+        display: none;
+    }
+    #testimonial-part .testi-overlay .text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #testimonial-part .testi-overlay .text span i {
+        font-size: 15px;
+        padding-right: 2px;
+    }
+    #testimonial-part .prev {
+        top: 590px;
+        left: 42%;
+    }
+    #testimonial-part .next {
+        bottom: -530px;
+        left: 62%;
+    }
+/* ==============================
+        pricing part
+=========================== */
+    #pricing-part {
+        margin-top: 60px;
+    }
+    #pricing-part .pricing {
+        margin-bottom: 30px;
+    }
+/* ==============================
+        counter part
+=========================== */
+    #counter-top{
+        display: none;
+    }
+    #counter-bottom{
+        display: none;
+    }
+    #counter-part{
+        margin-top: 50px;
+    }
+    #counter-part .overlay .rotet {
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay .counter-item{
+        margin-bottom: 20px;
+    }
+    #counter-part .overlay .counter-item h3 {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    #counter-part .overlay .counter-item p {
+        padding-top: 10px;
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+/* ==============================
+        counter part
+=========================== */
+    #team-part {
+        margin-top: 50px;
+    }
+    #team-part .slick-dots{
+        position: absolute;
+        bottom: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #team-part .slick-dots li{
+        display: inline-block;
+    }
+    #team-part .slick-dots li button{
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 0 5px;
+        background: transparent;
+        border: 1px solid #fbaa33;
+    }
+    #team-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+/* ==============================
+        footerimg part
+=========================== */
+    #footerimg-top{
+        display: none;
+    }
+    #footerimg-bottom{
+        display: none;
+    }
+    #footerimg-part {
+        margin-top: 80px;
+        padding: 50px 0;
+    }
+    footer .logo {
+        text-align: center;
+        border-bottom: 1px solid #fff;
+        padding: 20px 0;
+        transform: rotate(0deg);
+    }
+    footer {
+        margin-top: 70px;
+        background: #000;
+    }
+    footer .detils {
+        margin-top: 50px;
+    }
+    footer .icon {
+        padding: 15px 0;
+    }
+    footer .bor {
+        border-right: 0;
+    }
+    footer .text p {
+        padding: 0px 10px;
+    }
+}
+
+/* ========================================
+===========================================
+============================================= */
+
+@media (min-width: 576px) and (max-width: 767px){
+    .taitle p{
+        width: auto;
+        font-size: 14px;
+    }
+    /* ================================
+                nav part
+    ===================================== */
+    nav{
+        background: #000;
+    }
+    nav button i{
+        color: #fec600;
+        font-size: 25px;
+    }
+    nav .navbar-toggler{
+        color: #fec600;
+    }
+    nav ul{
+        padding: 10px 0;
+    }
+    nav ul li {
+        margin-right: 0;
+        text-align: center;
+        /* background: #2a5f6e; */
+    }
+    nav ul li a::after {
+        display: none;
+    }
+    /* ================================
+                bannre part
+    =================================== */
+    #banner-part{
+        position: relative;
+    }
+    #banner-part .banner-slider .banner .overlay{
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+    #banner-part .banner-slider .banner .overlay .container h2 {
+        font-size: 32px;
+    }
+    #banner-part .banner-slider .banner .overlay .container h1 {
+        font-size: 50px;
+    }
+    #banner-part .banner-slider .banner .overlay .container p {
+        width: auto;
+        padding: 20px 0;
+    }
+    #banner-part .banner-slider .banner .overlay .container a {
+        padding: 12px;
+    }
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20px;
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+    }
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 0 10px;
+        background: transparent;
+        border: 1px solid #fbaa33;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    #banner-bottom{
+        display: none;
+    }
+    /*============================
+             about part 
+    ================================*/
+    #about-part{
+        margin-top: 190px;
+    }
+    #about-part .item-round{
+        display: none;
+    }
+    #about-part .sheep-top{
+        display: none;
+    }
+    #about-part .sheep-bottom{
+        display: none;
+    }
+    #about-part .sheep-left{
+        display: none;
+    }
+    #about-part .sheep-right{
+        display: none;
+    }
+    #about-part i{
+        display: none;
+    }
+    #about-part .item-left{
+        text-align: center;
+        margin: 20px 0;
+    }
+    #about-part .item-right{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #about-part .item-top{
+        padding: 0 0;
+    }
+    #about-part .item-top h3{
+        padding-bottom: 0;
+    }
+    #about-part .item-top p {
+        padding: 15px 17px;
+    }
+    #about-part .item-bottom{
+        padding: 0 0;
+    }
+    #about-part .item-bottom h3{
+        padding-bottom: 0;
+    }
+    #about-part .item-bottom p {
+        padding: 15px 17px;
+    }
+    #about-part .item-left{
+        padding: 0 0;
+    }
+    #about-part .item-left h3{
+        padding-bottom: 0;
+    }
+    #about-part .item-left p {
+        padding: 15px 17px;
+    }
+    #about-part .item-right{
+        padding: 0 0;
+    }
+    #about-part .item-right h3{
+        padding-bottom: 0;
+    }
+    #about-part .item-right p {
+        padding: 15px 17px;
+    }
+/* ===================================
+        Portfolio part
+====================================== */
+
+    #Portfolio-top{
+        display: none;
+    }
+    #Portfolio-bottom{
+        display: none;
+    }
+    #portfolio-part {
+        margin-top: 50px;
+    }
+    #portfolio-part .overlay {
+        padding: 50px 0;
+    }
+/* ==============================
+        service part
+=========================== */
+    #service-part {
+	    margin-top: 50px;
+    } 
+    #service-part .line {
+        display: none;
+    }
+    #service-part .service{
+        flex-direction: column;
+    } 
+    #service-part .service:nth-child(2n+1) {
+        flex-direction: column;
+    }
+    #service-part .service .title {
+        width: 100%;
+        margin-top: 0;
+        justify-content: center;
+    }
+    #service-part .service:nth-child(2n+1) .title {
+        justify-content: center;
+    }
+    #service-part .service .image {
+        width: 100%;
+        margin: 36px 0;
+    }
+    #service-part .service .ditels {
+        width: 100%;
+    }
+    #service-part .service .ditels p {
+        padding: 20px;
+    }
+    #service-part .prev {
+        top: 105%;
+        left: 35%;
+        transform: translateX(0);
+    }
+    #service-part .next {
+        top: 105%;
+        left: 55%;
+        transform: translateX(0);
+    }
+    #service-part .service .ditels .shep {
+        top: 0%;
+        left: 50% !important;
+    }
+ /* ==============================
+        testimonial part
+=========================== */
+    #testimonial-top{
+        display: none;
+    }
+    #testimonial-bottom{
+        display: none;
+    }
+    #testimonial-part{
+        margin-top: 100px;
+    }
+    #testimonial-part .testi-overlay {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+    #testimonial-part .testi-overlay .line{
+        display: none;
+    }
+    #testimonial-part .testi-overlay .box-center {
+        margin-top: 40px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    #testimonial-part .testi-overlay .round {
+        width: 80px;
+        height: 80px;
+    }
+    #testimonial-part .testi-overlay .round img {
+        top: 8px;
+        left: -5px;
+    }
+    #testimonial-part .testi-overlay .text-box {
+        width: 576px;
+        padding: 10px;
+        text-align: center;
+    }
+    #testimonial-part .testi-overlay .text-box .sheap {
+        display: none;
+    }
+    #testimonial-part .testi-overlay .text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #testimonial-part .testi-overlay .text span i {
+        font-size: 15px;
+        padding-right: 2px;
+    }
+    #testimonial-part .prev {
+        top: 475%;
+        left: 42%;
+    }
+    #testimonial-part .next {
+        bottom: -415px;
+        left: 62%;
+    }
+/* ==============================
+        pricing part
+=========================== */
+    #pricing-part {
+        margin-top: 60px;
+    }
+    #pricing-part .pricing {
+        margin-bottom: 30px;
+    }
+    #pricing-part .pricing .list li {
+        font-size: 14px;
+        line-height: 30px;
+    }
+/* ==============================
+        counter part
+=========================== */
+    #counter-top{
+        display: none;
+    }
+    #counter-bottom{
+        display: none;
+    }
+    #counter-part{
+        margin-top: 50px;
+    }
+    #counter-part .overlay .rotet {
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay .counter-item h3 {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    #counter-part .overlay .counter-item p {
+        padding-top: 10px;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+/* ==============================
+        counter part
+=========================== */
+    #team-part {
+        margin-top: 50px;
+    }
+    #team-part .slick-dots{
+        position: absolute;
+        bottom: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #team-part .slick-dots li{
+        display: inline-block;
+    }
+    #team-part .slick-dots li button{
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 0 5px;
+        background: transparent;
+        border: 1px solid #fbaa33;
+    }
+    #team-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    #team-part .member .team-icon i {
+        margin: 0 4px;
+    }
+/* ==============================
+        footerimg part
+=========================== */
+    #footerimg-top{
+        display: none;
+    }
+    #footerimg-bottom{
+        display: none;
+    }
+    #footerimg-part {
+        margin-top: 80px;
+        padding: 50px 0;
+    }
+    footer .logo {
+        text-align: center;
+        border-bottom: 1px solid #fff;
+        padding: 20px 0;
+        transform: rotate(0deg);
+    }
+    footer {
+        margin-top: 70px;
+        background: #000;
+    }
+    footer .detils {
+        margin-top: 50px;
+    }
+    footer .icon {
+        padding: 15px 0;
+    }
+    footer .bor {
+        border-right: 0;
+    }
+    footer .text p {
+        padding: 0 10px;
+    }
+}
+/* =======================================
+========================================
+========================================= */
+@media (min-width: 768px) and (max-width: 991px){
+    .taitle p{
+        width: auto;
+        font-size: 14px;
+    }
+    /* ================================
+                nav part
+    ===================================== */
+    nav{
+        background: #000;
+    }
+    nav button i{
+        color: #fec600;
+        font-size: 25px;
+    }
+    nav .navbar-toggler{
+        color: #868686;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    nav ul li {
+        text-align: center;
+        margin-right: 22px;
+    }
+    nav ul li a::after {
+        bottom: -18px;
+    }
+    /* ================================
+                bannre part
+    =================================== */
+    #banner-part{
+        position: relative;
+    }
+    #banner-part .banner-slider .banner .overlay{
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+    #banner-part .banner-slider .banner .overlay .container h2 {
+        font-size: 32px;
+    }
+    #banner-part .banner-slider .banner .overlay .container h1 {
+        font-size: 50px;
+    }
+    #banner-part .banner-slider .banner .overlay .container p {
+        width: auto;
+        padding: 20px 0;
+    }
+    #banner-part .banner-slider .banner .overlay .container a {
+        padding: 12px;
+    }
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20px;
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+    }
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 0 10px;
+        background: transparent;
+        border: 1px solid #fbaa33;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    #banner-bottom{
+        display: none;
+    }
+    /*============================
+             about part 
+    ================================*/
+    #about-part{
+        margin-top: 190px;
+    }
+    #about-part .item-round{
+        display: none;
+    }
+    #about-part .sheep-top{
+        display: none;
+    }
+    #about-part .sheep-bottom{
+        display: none;
+    }
+    #about-part .sheep-left{
+        display: none;
+    }
+    #about-part .sheep-right{
+        display: none;
+    }
+    #about-part i{
+        display: none;
+    }
+    #about-part .item-left{
+        text-align: center;
+        margin: 20px 0;
+    }
+    #about-part .item-right{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #about-part .item-top{
+        padding: 0 0;
+    }
+    #about-part .item-top h3{
+        padding-bottom: 0;
+    }
+    #about-part .item-top p {
+        padding: 15px 17px;
+    }
+    #about-part .item-bottom{
+        padding: 0 0;
+    }
+    #about-part .item-bottom h3{
+        padding-bottom: 0;
+    }
+    #about-part .item-bottom p {
+        padding: 15px 17px;
+    }
+    #about-part .item-left{
+        padding: 0 0;
+    }
+    #about-part .item-left h3{
+        padding-bottom: 0;
+    }
+    #about-part .item-left p {
+        padding: 15px 17px;
+    }
+    #about-part .item-right{
+        padding: 0 0;
+    }
+    #about-part .item-right h3{
+        padding-bottom: 0;
+    }
+    #about-part .item-right p {
+        padding: 15px 17px;
+    }
+/* ===================================
+        Portfolio part
+====================================== */
+
+    #Portfolio-top{
+        display: none;
+    }
+    #Portfolio-bottom{
+        display: none;
+    }
+    #portfolio-part {
+        margin-top: 50px;
+    }
+    #portfolio-part .overlay {
+        padding: 50px 0;
+    }
+/* ==============================
+        service part
+=========================== */
+    #service-part {
+	    margin-top: 50px;
+    }
+    #service-part .service .ditels p {
+        padding: 25px 17px;
+        line-height: 23px;
+    } 
+    #service-part .line {
+        height: 757px;
+        top: 180px;
+    }
+ /* ==============================
+        testimonial part
+=========================== */
+    #testimonial-top{
+        display: none;
+    }
+    #testimonial-bottom{
+        display: none;
+    }
+    #testimonial-part{
+        margin-top: 100px;
+    }
+    #testimonial-part .testi-overlay {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #testimonial-part .testi-overlay .line {
+        height: 350px;
+        top: -25px;
+    }
+    #testimonial-part .testi-overlay .text-box {
+        width: 610px;
+        padding: 15px;
+    }
+    #testimonial-part .testi-overlay .round {
+        width: 80px;
+        height: 80px;
+    }
+    #testimonial-part .testi-overlay .round img {
+        top: 10px;
+        left: -6px;
+    }
+    #testimonial-part .testi-overlay .text-box .sheap {
+        width: 30px;
+        height: 30px;
+    }
+    #testimonial-part .testi-overlay .text h3 {
+        font-size: 22px;
+    }
+    #testimonial-part .testi-overlay .text span i {
+        font-size: 16px;
+        padding-right: 2px;
+    }
+    #testimonial-part .testi-overlay .text h4 {
+        margin-top: 12px;
+        font-size: 16px;
+    }
+    #testimonial-part .testi-overlay .text p {
+        font-size: 14px;
+        padding-top: 15px;
+    }
+    #testimonial-part .testi-overlay .text h6 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+/* ==============================
+        pricing part
+=========================== */
+    #pricing-part {
+        margin-top: 60px;
+    }
+    #pricing-part .pricing {
+        margin-bottom: 30px;
+    }
+    #pricing-part .pricing .list li {
+        font-size: 15px;
+        line-height: 32px;
+    }
+/* ==============================
+        counter part
+=========================== */
+    #counter-top{
+        display: none;
+    }
+    #counter-bottom{
+        display: none;
+    }
+    #counter-part{
+        margin-top: 50px;
+    }
+    #counter-part .overlay .rotet {
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay .counter-item h3 {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }#counter-part .overlay .counter-item p {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+/* ==============================
+        counter part
+=========================== */
+    #team-part {
+        margin-top: 50px;
+    }
+    #team-part .slick-dots{
+        position: absolute;
+        bottom: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #team-part .slick-dots li{
+        display: inline-block;
+    }
+    #team-part .slick-dots li button{
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 0 5px;
+        background: transparent;
+        border: 1px solid #fbaa33;
+    }
+    #team-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    #team-part .member .team-icon i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px;
+        margin: 0 4px;
+    }
+/* ==============================
+        footerimg part
+=========================== */
+    #footerimg-top{
+        display: none;
+    }
+    #footerimg-bottom{
+        display: none;
+    }
+    #footerimg-part {
+        margin-top: 80px;
+        padding: 50px 0;
+    }
+    footer .logo {
+        text-align: center;
+        border-bottom: 1px solid #fff;
+        padding: 20px 0;
+        transform: rotate(0deg);
+    }
+    footer {
+        margin-top: 70px;
+        background: #000;
+    }
+    footer .detils {
+        margin-top: 50px;
+    }
+    footer .icon {
+        padding: 15px 0;
+    }
+    footer .bor {
+        border-right: 0;
+    }
+    footer .text p {
+        padding: 0 10px;
+    }
+}
+/* ==================================
+====================================
+===================================== */
+@media (min-width: 992px) and (max-width: 1199px){
+    nav .navbar-toggler{
+        color: #868686;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    nav ul li {
+        text-align: center;
+        margin-right: 20px;
+    }
+    nav ul li a::after {
+        bottom: -20px;
+    }
+    #about-part .offset-lg-4 {
+        margin-left: 25.333%;
+    }
+    #about-part .item-left i {
+        right: -65px;
+    }
+    #about-part .item-right i {
+        left: -65px;
+    }
+    #about-part .left-item{
+        padding: 0;
+    }
+    #about-part .item-left {
+        padding: 15px 20px;
+    }
+    #about-part .item-left p {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+    #about-part .right-item{
+        padding: 0;
+    }
+    #about-part .item-right {
+        padding: 15px 20px;
+    }
+    #about-part .item-right p {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+    #testimonial-part .testi-overlay .text-box {
+        width: 730px;
+    }
+    #counter-part .overlay .counter-item p {
+        font-size: 18px;
+    }
+    #team-part .member .team-icon i{
+        margin: 0 2px;
+    }
+    #service-part .line {
+        height: 810px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+    #about-part .sheep-left {
+        width: 30px;
+        height: 30px;
+    }
+    #about-part .item-left i {
+        right: -33px;
+    }
+    #about-part .sheep-right {
+        width: 30px;
+        height: 30px;
+    }
+    #about-part .item-right i {
+        left: -33px;
+    }
+    #service-part .line {
+        height: 740px;
+    }
+}
